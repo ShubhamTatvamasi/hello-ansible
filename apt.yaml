@@ -1,0 +1,7 @@
+- name: Install packages
+  hosts: ubuntu
+  tasks:
+  - name: Install "nginx" server
+    apt:
+      name: nginx
+      update_cache: yes
