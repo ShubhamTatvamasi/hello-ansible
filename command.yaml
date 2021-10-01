@@ -1,0 +1,9 @@
+- name: Run Commands
+  hosts: ubuntu
+  tasks:
+  - name: Check "os-release"
+    command: cat /etc/os-release
+    register: my_os_release
+
+  - debug: msg="{{ my_os_release.stdout }}"
+
