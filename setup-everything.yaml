@@ -1,0 +1,3 @@
+- import_playbook: apt.yaml
+- import_playbook: command.yaml
+- import_playbook: shell.yaml
