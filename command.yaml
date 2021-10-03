@@ -1,5 +1,5 @@
 - name: Run Commands
-  hosts: ubuntu
+  hosts: all
   tasks:
   - name: Check "os-release"
     command: cat /etc/os-release

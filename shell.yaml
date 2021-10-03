@@ -1,0 +1,6 @@
+- name: Run Shell Script
+  hosts: all
+  tasks:
+  - name: Check "os-release" with shell script
+    shell: |
+      cat /etc/os-release

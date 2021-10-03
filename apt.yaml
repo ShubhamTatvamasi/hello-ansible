@@ -1,5 +1,5 @@
 - name: Install packages
-  hosts: ubuntu
+  hosts: all
   become: yes
   tasks:
   - name: Install "nginx" server
