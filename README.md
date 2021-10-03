@@ -14,5 +14,5 @@ ansible all -i hosts -a "cat /etc/os-release"
 
 install packages on all servers:
 ```bash
-ansible-playbook apt.yaml -i hosts
+ansible-playbook apt.yaml
 ```

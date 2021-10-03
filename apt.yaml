@@ -1,5 +1,6 @@
 - name: Install packages
   hosts: ubuntu
+  become: yes
   tasks:
   - name: Install "nginx" server
     apt:
